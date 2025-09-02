@@ -11,8 +11,8 @@ Contains exercises to let us in on how Python does a loop.
 ## Tasks
 ### General information
 __Number of tasks:__ 13<br/>
-__Completed:__ TBA<br/>
-__Passed:__ TBA<br/>
+__Completed:__ 9<br/>
+__Passed:__ 6<br/>
 ### Herakles only did the twelve
 So we have him beat. By just the one, but still.<br/>
 We weren't allowed to store what we had to print in a new variable or import modules.
@@ -46,6 +46,9 @@ Prints a string in uppercase followed by a new line.<br/>
 Maximum two (2) `print` functions with string format, one (1) loop, and __no__ (0) module, tr.upper() or str.isupper().<br/>
 Relates to file `8-uppercase.py`.
 #### 9. There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important
+Prints the last digit of a number.<br/>
+_(Actually it returns the value of said digit and the __main file__ prints it, but you know. Tom8to tomAHto.)_<br/>
+Relates to the file `9-print_last_digit.py`.
 #### 10. a + b
 #### 11. a ^ b
 #### 12. Fizz Buzz
