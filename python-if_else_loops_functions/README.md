@@ -11,9 +11,9 @@ Contains exercises to let us in on how Python does a loop.
 ## Tasks
 ### General information
 __Number of tasks:__ 13<br/>
-__Completed:__ 9<br/>
-__Passed:__ 6<br/>
-### Herakles only did the twelve
+__Completed:__ 13<br/>
+__Passed:__ 12<br/>
+### Herakles only did twelve
 So we have him beat. By just the one, but still.<br/>
 We weren't allowed to store what we had to print in a new variable or import modules.
 #### 0. Positive anything is better than negative nothing
@@ -48,7 +48,13 @@ Relates to file `8-uppercase.py`.
 #### 9. There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important
 Prints the last digit of a number.<br/>
 _(Actually it returns the value of said digit and the __main file__ prints it, but you know. Tom8to tomAHto.)_<br/>
-Relates to the file `9-print_last_digit.py`.
+Relates to file `9-print_last_digit.py`.
 #### 10. a + b
+Adds two integers and returns the result.<br/>
+Relates to file `10-add.py`.
 #### 11. a ^ b
+Computes a to the power of b and returns the value.<br/>
+Relates to file `11-pow.py`.
 #### 12. Fizz Buzz
+The one and only FizzBuzz!<br/>
+Relates to file `12-fizzbuzz.py`.
