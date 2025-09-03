@@ -6,4 +6,3 @@ if __name__ == '__main__':
     for item in argv[1:]:
         res += int(item)
     print("{}" .format(res))
- 
