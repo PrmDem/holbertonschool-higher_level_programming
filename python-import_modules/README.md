@@ -31,5 +31,5 @@ Related file: `3-infinite_add.py`.
 Write a program that prints all the names defined by the compiled module `hidden_4.pyc`.<br/>
 Sandbox-only task, nothing to see here!
 #### 5. Everything can be imported
-Imports the variable a from the file `variable_load_5.py` and prints its value.<br/>
+Imports the variable `a` from the file `variable_load_5.py` and prints its value.<br/>
 Related file: `5-variable_load.py`. Don't get them mixed up!
