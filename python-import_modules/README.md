@@ -11,8 +11,8 @@ This project teaches us how to import modules in Python3.
 ## Tasks
 ### General information
 __Number of tasks:__ 6<br/>
-__Completed:__ 4<br/>
-__Passed:__ TBA<br/>
+__Completed:__ 6<br/>
+__Passed:__ 4<br/>
 ### Detailed overview
 Well, relatively detailed. I'm not about to give secrets away here.
 #### 0. Import a simple function from a simple file
@@ -29,7 +29,7 @@ Prints the result of the addition of all arguments.<br/>
 Related file: `3-infinite_add.py`.
 #### 4. Who are you?
 Write a program that prints all the names defined by the compiled module `hidden_4.pyc`.<br/>
-Sandbox-only task, nothing to see here!
+Relates to file `4-hidden_discovery.py`.
 #### 5. Everything can be imported
 Imports the variable `a` from the file `variable_load_5.py` and prints its value.<br/>
 Related file: `5-variable_load.py`. Don't get them mixed up!
