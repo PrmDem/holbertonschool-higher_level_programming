@@ -7,7 +7,7 @@ def print_matrix_integer(matrix=[[]]):
     while i < vertIdx:
         j = 0
         while j < horIdx:
-            print("{}".format(matrix[i][j]),
+            print("{:d}".format(matrix[i][j]),
                   end=" " if j < (horIdx - 1) else "\n")
             j += 1
         i += 1
