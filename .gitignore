@@ -1,3 +1,8 @@
+# Files not needed by the checker
+*-main.py
+sidequests/
+env/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
