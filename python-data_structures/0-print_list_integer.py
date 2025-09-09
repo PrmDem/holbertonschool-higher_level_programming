@@ -5,4 +5,4 @@ def print_list_integer(my_list=[]):
     # takes 'my_list' as an argument
     # doesn't return anything
     for item in my_list:
-        print("{}" .format(item))
+        print("{}".format(item))
