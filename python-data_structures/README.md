@@ -13,10 +13,11 @@ Maybe not 'why'. Maybe we'll suspend our disbelief a little bit.
 ### General information
 __Number of tasks:__ 13<br/>
 __Completed:__ 12<br/>
-__Passed:__ TBA<br/>
+__Passed:__ 10<br/>
 ### Overview
 ```
-The web of our tasks is of a mingled yarn, requirements and correct code output together.<br/>
+The web of our tasks is of a mingled yarn, requirements and correct code output together.
+
 — Shakespeare
 ```
 #### 0. Print a list of integers
