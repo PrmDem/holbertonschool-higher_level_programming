@@ -11,8 +11,8 @@ _Sets_ are unordered collections of elements without duplicates. _Dictionaries_ 
 ## Tasks
 ### General information
 __Number of tasks:__ 13<br/>
-__Completed:__ TBA <br/>
-__Passed:__ TBA<br/>
+__Completed:__ 13<br/>
+__Passed:__ 12<br/>
 ### Overview
 #### 0. Squared simple
 Computes the square value of all integers of a matrix.<br/>
