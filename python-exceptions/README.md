@@ -14,8 +14,8 @@ A little less conversation, a little more exceptions please.
 ## Tasks
 ### General information
 __Number of tasks:__ 7<br/>
-__Completed:__ TBA<br/>
-__Passed:__ TBA<br/>
+__Completed:__ 7<br/>
+__Passed:__ 6<br/>
 ### What to except when you're excepting
 #### 0. Safe list printing
 Prints a certain number of elements from a list.<br/>That list can contain any types and we can be asked to print more than its length.<br/>We obviously have to use try/except, and we can't use `len()`, otherwise where's the fun?<br/>
