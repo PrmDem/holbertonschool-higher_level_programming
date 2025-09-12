@@ -8,7 +8,8 @@ This function prints the message "My name is <first name> <last name>" where
 
 Parameters:
     first_name (str): The first name to be printed. Must be a string.
-    last_name (str, optional): The last name to be printed. Defaults to an empty string.
+    last_name (str, optional): The last name to be printed.
+        Defaults to an empty string.
 
 Example:
     say_my_name("John", "Doe")
