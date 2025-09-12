@@ -1,0 +1,32 @@
+>>> text_indentation = __import__('5-text_indentation').text_indentation
+
+>>> text = "What. What kind of fool? Tears it apart. Leaving me: pain and sorrow."
+>>> text_indentation(text)
+What.
+<BLANKLINE>
+What kind of fool?
+<BLANKLINE>
+Tears it apart.
+<BLANKLINE>
+Leaving me:
+<BLANKLINE>
+pain and sorrow.
+
+>>> text_indentation("Say captain. Say wot? Say: wat you want")
+Say captain.
+<BLANKLINE>
+Say wot?
+<BLANKLINE>
+Say:
+<BLANKLINE>
+wat you want
+
+>>> text_indentation("I love testing! No really, I do. ..")
+I love testing! No really, I do.
+<BLANKLINE>
+..
+
+>>> text_indentation(15)
+Traceback (most recent call last):
+    ...
+TypeError: text must be a string
