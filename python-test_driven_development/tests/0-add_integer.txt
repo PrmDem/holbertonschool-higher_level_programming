@@ -1,0 +1,25 @@
+>>> add_integer = __import__('0-add_integer').add_integer
+
+Integer and a float:
+
+>>> add_integer(1, 2.0)
+3
+
+With 'b' unspecified:
+
+>>> add_integer(2)
+100
+
+Passing a string as argument:
+
+>>> add_integer(11, "moon")
+Traceback (most recent call last):
+    ...
+TypeError: b must be an integer
+
+Passing no arguments:
+
+>>> add_integer(None)
+Traceback (most recent call last):
+    ...
+TypeError: a must be an integer
