@@ -4,8 +4,6 @@ In this project we'll make a first approach to Python classes.<br/>Every task bu
 * Allowed editors: vi, vim, emacs
 * All files will be interpreted on Ubuntu 20.04 LTS using python3 (version 3.8.*)
 * All files end with a new line
-* All test files (.txt) should be inside a folder `tests`
-* All tests should be executed with `python3 -m doctest ./tests/*`
 * Each module, class, and method must contain docstring as comments.
 * The length of all files will be tested using wc
 * We are not allowed to import any module
@@ -13,7 +11,7 @@ In this project we'll make a first approach to Python classes.<br/>Every task bu
 ### General information
 __Number of tasks:__ 7<br/>
 __Completed:__ 7<br/>
-__Passed:__ TBA<br/>
+__Passed:__ 6<br/>
 ### Overview
 #### 0. My first square
 Writes an empty class `square`that defines a square.<br/>
