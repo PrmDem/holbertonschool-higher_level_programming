@@ -1,5 +1,10 @@
 #!/usr/bin/python3
 
+"""This module simply defines a class
+    ...for now!
+"""
+
+
 class Square:
     """Defines a square.
 

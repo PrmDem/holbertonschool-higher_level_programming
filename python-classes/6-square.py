@@ -1,5 +1,28 @@
 #!/usr/bin/python3
 
+"""This module uses user-provided 'size'
+    to print the character '#' in a square shape.
+    It adds white spaces at a position
+    provided by the user via the tuple `position`.
+
+    Example:
+    >>> square(3)
+    ###
+    ###
+    ###
+
+    >>> square(3, (3, 1))
+       ###
+       ###
+       ###
+
+    Known issue:
+        Due to truly confusing instructions,
+        the output of my file is different from expectation.
+        This will be fixed as soon as I get clarification.
+"""
+
+
 class Square:
     """Contains all attributes of a Square
     Printed with character '#'

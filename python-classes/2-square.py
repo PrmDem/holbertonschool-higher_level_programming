@@ -1,5 +1,16 @@
 #!/usr/bin/python3
 
+"""This module uses user-provided 'size'
+    to print the character '#' in a square shape.
+
+    Example:
+    >>> square(3)
+    ###
+    ###
+    ###
+"""
+
+
 class Square:
     """Contains all attributes of a Square
     Printed with character '#'
