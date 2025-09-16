@@ -12,14 +12,10 @@
     ###
 
     >>> square(3, (3, 1))
+    <BLANKLINE>
        ###
        ###
        ###
-
-    Known issue:
-        Due to truly confusing instructions,
-        the output of my file is different from expectation.
-        This will be fixed as soon as I get clarification.
 """
 
 
@@ -83,7 +79,7 @@ class Square:
 
     def my_print(self):
         """prints a square of size 'size'
-            using character #
+            using character # and spaces
 
             if self.__size == 0,
             prints an empty line
@@ -92,8 +88,7 @@ class Square:
         if self.__size == 0:
             print()
         else:
+            if self.__position[1] != 0:
+                print("" * self.__position[1])
             for i in range(0, self.__size):
-                if i == self.__position[1]:
-                    print(" " * self.__position[0] + "#" * self.__size)
-                else:
-                    print("#" * self.__size)
+                print(" " * self.__position[0] + "#" * self.__size)
