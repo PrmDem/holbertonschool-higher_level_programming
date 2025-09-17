@@ -20,8 +20,8 @@ class Rectangle:
             width (int): defaults to 0, can only be positive
             height (int): defaults to 0, can only be positive
         """
-        self.__width = width
-        self.__height = height
+        self.width = width
+        self.height = height
         Rectangle.number_of_instances += 1
 
     @property
