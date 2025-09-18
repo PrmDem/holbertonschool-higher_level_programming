@@ -76,7 +76,7 @@ class Rectangle:
         returns an empty line
         """
         if (self.__height or self.__width) == 0:
-            return "\n"
+            return ""
         else:
             return '\n'.join(('{}'.format(self.print_symbol) * self.__width)
                              for i in range(0, self.__height))

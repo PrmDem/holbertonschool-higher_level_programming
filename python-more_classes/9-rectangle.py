@@ -11,6 +11,7 @@ class Rectangle:
 
     number_of_instances = 0
     print_symbol = "#"
+    size = 0
 
     def __init__(self, width=0, height=0):
         """
@@ -76,7 +77,7 @@ class Rectangle:
         returns an empty line
         """
         if (self.__height or self.__width) == 0:
-            return ""
+            return "\n"
         else:
             return '\n'.join(('{}'.format(self.print_symbol) * self.__width)
                              for i in range(0, self.__height))
@@ -116,4 +117,14 @@ class Rectangle:
         if Rectangle.area(rect_1) >= Rectangle.area(rect_2):
             return rect_1
         else:
-            return rect_2
+            return rect_2   
+
+    @classmethod
+    def square(cls, size=0):
+        """Returns a new Rectangle instance
+        where width == height == size
+
+        size (int): arg passed by user to define
+            width and height of new rectangl
+        """
+        Rectangle.width = Rectangle.height = size
