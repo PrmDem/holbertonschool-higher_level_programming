@@ -14,4 +14,4 @@ def is_same_class(obj, a_class):
         obj (any): variable to test against a specified class
         a_class: can be any class recognised by Python
    """
-    return isinstance(type(obj), a_class)
+    return type(obj) is a_class
