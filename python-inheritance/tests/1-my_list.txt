@@ -4,21 +4,38 @@ Test cases for ``1-my_list`` module
 Using ``print_sorted``
 -------------------
 
-Importing ``print_sorted`` from the ``1-my_list`` module:
+Getting ``print_sorted`` from the ``1-my_list`` module:
 
 >>> print_sorted = __import__('1-my_list').MyList.print_sorted
 
-# basic case use
+
+Basic case use:
 
 >>> print_sorted([2, 7, 15, 4, 21])
 [2, 4, 7, 15, 21]
 
-# only one number
+
+Only one number:
 
 >>> print_sorted([1])
 [1]
 
-# all the same number
+
+All the same number:
 
 >>> print_sorted([2, 2, 2])
 [2, 2, 2]
+
+
+One of the elements is a string:
+
+>>> print_sorted([1, 2, 'three'])
+Traceback (most recent call last):
+    ...
+TypeError: '<' not supported between instances of 'str' and 'int'
+
+
+All elements are strings:
+
+>>> print_sorted(['one', 'two', 'three'])
+['one', 'three', 'two']
