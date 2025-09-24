@@ -1,7 +1,6 @@
 # Python : inheritance
 Here we focus on the principle of _inheritance_ in Python.<br/>
 Who thought classes couldn't get any cooler?<br/><br/>
-__NB:__ I initially thought to make a Bourne joke here, but realised it's called _Legacy_ in English, where the French translation (_'Héritage'_) led me to believe it would be _'Inheritance'_. The cost of learning is steep.
 ## Requirements
 ### Script requirements
 * Allowed editors: vi, vim, emacs
@@ -22,8 +21,8 @@ __NB:__ I initially thought to make a Bourne joke here, but realised it's called
 ## Tasks
 ### General information
 __Number of tasks:__ 12<br/>
-__Completed:__ 9<br/>
-__Passed:__ TBA<br/>
+__Completed:__ 12<br/>
+__Passed:__ 10<br/>
 ### Overview
 #### 0. Lookup
 Returns the list of available attributes and methods of an object.<br/>
@@ -56,3 +55,9 @@ See file [`8-rectangle.py`](./8-rectangle.py).
 #### 9. Full rectangle
 Adds full implementation of `area` method. `[Rectangle] <width>/<height>` is returned by `str()` and printed by `print`.<br/>
 See file [`9-rectangle.py`](./9-rectangle.py).
+#### 10. Square #1
+Adds the class `Square` which inherits from `Rectangle`. Instantiates with `size`.<br/>
+See file [`10-square.py`](./10-square.py).
+#### 11. Square #2
+`[Square] <width>/<height>` is returned by `str()` and printed by `print`.<br/>
+See file [`11-square.py`](./11-square.py).
