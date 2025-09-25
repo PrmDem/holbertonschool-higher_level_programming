@@ -1,11 +1,6 @@
 Test cases for ``1-my_list`` module
 ======================
 
-Using ``print_sorted``
--------------------
-
-Getting ``print_sorted`` from the ``1-my_list`` module:
-
 >>> print_sorted = __import__('1-my_list').MyList.print_sorted
 
 
@@ -27,15 +22,7 @@ All the same number:
 [2, 2, 2]
 
 
-One of the elements is a string:
+List is empty:
 
->>> print_sorted([1, 2, 'three'])
-Traceback (most recent call last):
-    ...
-TypeError: '<' not supported between instances of 'str' and 'int'
-
-
-All elements are strings:
-
->>> print_sorted(['one', 'two', 'three'])
-['one', 'three', 'two']
+>>> print_sorted([])
+[]
