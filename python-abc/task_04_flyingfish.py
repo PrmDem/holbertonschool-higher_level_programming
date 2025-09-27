@@ -1,8 +1,5 @@
 #!/usr/bin/python
 
-from abc import ABC
-
-
 class Fish:
     """Gives the habitat and movement type of a fish"""
 
