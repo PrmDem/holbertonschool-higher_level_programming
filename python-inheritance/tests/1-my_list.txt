@@ -21,6 +21,12 @@ Only one number:
 [1]
 
 
+Duplicates of a number:
+
+>>> print_sorted([1, 4, 7, 81, 1])
+[1, 1, 4, 7, 81]
+
+
 All the same number:
 
 >>> print_sorted([2, 2, 2])
@@ -43,3 +49,29 @@ List contains only negative integers:
 
 >>> print_sorted([-11, -8, -64, -33, -2])
 [-64, -33, -11, -8, -2]
+
+
+List only contains floats:
+
+>>> print_sorted([1.4, 7.11, 2.24])
+[1.4, 2.24, 7.11]
+
+
+List contains floats and integers:
+
+>>> print_sorted([27, 3.14, 89, 7.77])
+[3.14, 7.77, 27, 89]
+
+
+List contains a string:
+
+>>> print_sorted([1, 16, 4, "Forty"])
+Traceback (most recent call last):
+    ...
+TypeError: '<' not supported between instances of 'str' and 'int'
+
+
+List contains only strings:
+
+>>> print_sorted(["One", "Two", "Three"])
+['One', 'Three', 'Two']
