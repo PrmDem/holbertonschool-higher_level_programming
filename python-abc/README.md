@@ -4,8 +4,8 @@ That doesn't look quite right...<br/>
 ## Tasks
 ### General information
 __Number of tasks:__ 6<br/>
-__Completed:__ 3<br/>
-__Passed:__ 2<br/>
+__Completed:__ 6<br/>
+__Passed:__ 6<br/>
 ### Overview
 #### 0. Abstract Animal Class and its Subclasses
 Creates abstract class Animal and its abstract method `sound`.<br/>
