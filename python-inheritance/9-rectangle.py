@@ -14,7 +14,7 @@ class BaseGeometry:
     and integer_validator method to check the values passed."""
     def area(self):
         """calculates the area of our shape"""
-        return self._Rectangle__width * self._Rectangle__height
+        raise Exception("area() is not implemented")
 
     def integer_validator(self, name, value):
         """ensures value is an integer > 0
@@ -44,6 +44,10 @@ class Rectangle(BaseGeometry):
         """
         self.__width = self.integer_validator("width", width)
         self.__height = self.integer_validator("height", height)
+
+    def area(self):
+        """calculates the area of our shape"""
+        return self.__width * self.__height
 
     def __str__(self):
         """returns a string representation
