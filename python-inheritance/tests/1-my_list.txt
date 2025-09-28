@@ -16,18 +16,6 @@ Basic case use:
 [2, 4, 7, 15, 21]
 
 
-List was already sorted:
-
->>> print_sorted([1, 2, 3, 4, 5])
-[1, 2, 3, 4, 5]
-
-
-Numbers in the list were completely reversed:
-
->>> print_sorted([5, 4, 3, 2, 1])
-[1, 2, 3, 4, 5]
-
-
 Only one number:
 
 >>> print_sorted([1])
