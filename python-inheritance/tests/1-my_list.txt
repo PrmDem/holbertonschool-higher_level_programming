@@ -1,7 +1,4 @@
-Test cases for ``1-my_list`` module
-======================
-
-Importing the print_sorted method:
+Fetching the print_sorted method:
 
 >>> print_sorted = __import__('1-my_list').MyList.print_sorted
 
@@ -24,13 +21,20 @@ All the same number:
 [2, 2, 2]
 
 
+Positive and negative numbers:
+
+>>> print_sorted([-1, 5, 0, -3])
+[-3, -1, 0, 5]
+
+
 Empty list:
 
 >>> print_sorted([])
 []
 
 
-Positive and negative numbers:
-
->>> print_sorted([-1, 5, 0, -3])
-[-3, -1, 0, 5]
+What was passed was not a list
+>>> print_sorted(7)
+Traceback (most recent call last):
+    ...
+TypeError: 'int' object is not iterable
