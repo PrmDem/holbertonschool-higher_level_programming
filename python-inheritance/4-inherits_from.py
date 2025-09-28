@@ -1,10 +1,8 @@
 #!/usr/bin/python3
 
-"""Example case:
-    >>> obj = False
-    >>> inherits_fr*m(obj, int)
-    True inherited fr*m class int
-    """
+"""Checks whether an object is a direct subclass
+    of the one passed as argument
+"""
 
 
 def inherits_from(obj, a_class):
@@ -14,8 +12,12 @@ def inherits_from(obj, a_class):
     Args:
         obj (any): variable to check the class of
         a_class: class we want to check in relation to obj's class
+
+    Returns:
+        True if is subclass
+        False if not
     """
-    if issubclass(type(obj), a_class) and type(obj) != a_class:
+    if issubclass(type(obj), a_class) and type(obj) is not a_class:
         return True
     else:
         return False
