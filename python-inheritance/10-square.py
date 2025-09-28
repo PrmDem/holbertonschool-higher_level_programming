@@ -61,4 +61,5 @@ class Rectangle(BaseGeometry):
 class Square(Rectangle):
     """instantiates a square using 'size'"""
     def __init__(self, size):
-        super().__init__(size, size)
+        self.__size = size
+        super().__init__(self.__size, self.__size)
