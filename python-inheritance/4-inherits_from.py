@@ -2,8 +2,8 @@
 
 """Example case:
     >>> obj = False
-    >>> inherits_from(obj, int)
-    True inherited from class int
+    >>> inherits_fr*m(obj, int)
+    True inherited fr*m class int
     """
 
 
