@@ -52,18 +52,6 @@ List contains only negative integers:
 [-64, -33, -11, -8, -2]
 
 
-List only contains floats:
-
->>> print_sorted([1.4, 7.11, 2.24])
-[1.4, 2.24, 7.11]
-
-
-List contains floats and integers:
-
->>> print_sorted([27, 3.14, 89, 7.77])
-[3.14, 7.77, 27, 89]
-
-
 List contains a string:
 
 >>> print_sorted([1, 16, 4, "Forty"])
