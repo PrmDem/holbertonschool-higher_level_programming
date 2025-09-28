@@ -28,15 +28,6 @@ Numbers in the list were completely reversed:
 [1, 2, 3, 4, 5]
 
 
-Reversed list after print_sorted is used:
-
->>> my_list = MyList([16, 7, 1, 28, 5])
->>> print_sorted(my_list)
-[1, 5, 7, 16, 28]
->>> print(list(reversed(my_list)))
-[5, 28, 1, 7, 16]
-
-
 Only one number:
 
 >>> print_sorted([1])
