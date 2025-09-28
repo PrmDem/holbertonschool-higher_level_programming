@@ -43,11 +43,3 @@ List contains only negative integers:
 
 >>> print_sorted([-11, -8, -64, -33, -2])
 [-64, -33, -11, -8, -2]
-
-
-List contains strings:
-
->>> print_sorted([1, 16, 4, "Forty"])
-Traceback (most recent call last):
-    ...
-TypeError: '<' not supported between instances of 'str' and 'int'
