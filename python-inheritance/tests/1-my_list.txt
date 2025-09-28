@@ -33,13 +33,7 @@ List is empty:
 []
 
 
-List contains positive and negative integers:
+Duplicate of a number:
 
->>> print_sorted([-1, 7, -19, 21, 0])
-[-19, -1, 0, 7, 21]
-
-
-List contains only negative integers:
-
->>> print_sorted([-11, -8, -64, -33, -2])
-[-64, -33, -11, -8, -2]
+>>> print_sorted([1, 4, 8, 1, 2])
+[1, 1, 2, 4, 8]
