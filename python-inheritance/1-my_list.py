@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 
-"""Further builds on class 'List'.
-"""
+"""Further builds on class 'List'."""
 
 
 class MyList(list):
@@ -11,4 +10,4 @@ class MyList(list):
 
     def print_sorted(self):
         """prints list items in ascending order"""
-        return(sorted(self))
+        print(sorted(self))
