@@ -1,24 +1,21 @@
 Test cases for ``1-my_list`` module
 ======================
 
-Using ``print_sorted``
--------------------
-
-Getting ``print_sorted`` from the ``1-my_list`` module:
+Importing the print_sorted method:
 
 >>> print_sorted = __import__('1-my_list').MyList.print_sorted
 
 
 Basic case use:
 
->>> print_sorted([2, 7, 15, 4, 21])
-[2, 4, 7, 15, 21]
+>>> print_sorted([3, 2, 4, 5, 1])
+[1, 2, 3, 4, 5]
 
 
 Only one number:
 
->>> print_sorted([1])
-[1]
+>>> print_sorted([17])
+[17]
 
 
 All the same number:
@@ -27,13 +24,13 @@ All the same number:
 [2, 2, 2]
 
 
-List is empty:
+Empty list:
 
 >>> print_sorted([])
 []
 
 
-Duplicate of a number:
+Positive and negative numbers:
 
->>> print_sorted([1, 4, 8, 1, 2])
-[1, 1, 2, 4, 8]
+>>> print_sorted([-1, 5, 0, -3])
+[-3, -1, 0, 5]
