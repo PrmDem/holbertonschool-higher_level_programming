@@ -23,9 +23,11 @@ __Completed:__ TBA<br/>
 __Passed:__ TBA<br/>
 ### Overview
 #### 0. Read file
-Reads a text file and prints it to stdout.
-See file [`0-read_file.py`](./0-read_file.py) and [`1-my_list.txt`](tests/1-my_list.txt).
+Reads a text file and prints it to stdout.<br/>
+See file [`0-read_file.py`](./0-read_file.py).
 #### 1. Write to a file
+Writes a string to a text file and returns the number of characters written.<br/>
+See file [`1-write_file.py`](./1-write_file.py).
 #### 2. Append to a file
 #### 3. To JSON string
 #### 4. From JSON string to Object
