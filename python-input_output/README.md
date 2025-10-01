@@ -1,5 +1,5 @@
 # Input, Output
-In this project we'll learn how to manipulate files in Python, use `with` correctly, and how to (de)serialise with our good friend JSON.<br/>
+In this project we'll learn how to manipulate files in Python, use `with` correctly, and how to (de)serialize with our good friend JSON.<br/>
 ## Requirements
 ### Script requirements
 * Allowed editors: vi, vim, emacs
@@ -19,7 +19,7 @@ In this project we'll learn how to manipulate files in Python, use `with` correc
 ## Tasks
 ### General information
 __Number of tasks:__ 13<br/>
-__Completed:__ TBA<br/>
+__Completed:__ 7<br/>
 __Passed:__ TBA<br/>
 ### Overview
 #### 0. Read file
@@ -29,13 +29,29 @@ See file [`0-read_file.py`](./0-read_file.py).
 Writes a string to a text file and returns the number of characters written.<br/>
 See file [`1-write_file.py`](./1-write_file.py).
 #### 2. Append to a file
+Appends a string at the end of a text file and returns the number of characters added.<br/>
+See file [`2-append_write.py`](./2-append_write.py).
 #### 3. To JSON string
+Returns the JSON representation of an object (string).<br/>
+See file [`3-to_json_string.py`](./3-to_json_string.py).
 #### 4. From JSON string to Object
+Returns an object (Python data structure) represented by a JSON string.<br/>
+See file [`4-from_json_string.py`](./4-from_json_string.py).
 #### 5. Save Object to a file
+Writes an Object to a text file, using a JSON representation.<br/>
+See file [`5-save_to_json_file.py`](./5-save_to_json_file.py).
 #### 6. Create object from a JSON file
+Creates an Object from a "JSON file".<br/>
+See file [`6-load_from_json_file.py`](./6-load_from_json_file.py).
 #### 7. Load, add, save
+Adds all arguments to a Python list, and then save them to a file.<br/>
+See file [`7-add_item.py`](./7-add_item.py).
 #### 8. Class to JSON
+
 #### 9. Student to JSON
+
 #### 10. Student to JSON with filter
+
 #### 11. Student to disk and reload
+
 #### 12. Pascal's Triangle
