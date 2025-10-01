@@ -19,8 +19,8 @@ In this project we'll learn how to manipulate files in Python, use `with` correc
 ## Tasks
 ### General information
 __Number of tasks:__ 13<br/>
-__Completed:__ 8<br/>
-__Passed:__ 7<br/>
+__Completed:__ 11<br/>
+__Passed:__ 11<br/>
 ### Overview
 #### 0. Read file
 Reads a text file and prints it to stdout.<br/>
@@ -47,11 +47,15 @@ See file [`6-load_from_json_file.py`](./6-load_from_json_file.py).
 Adds all arguments to a Python list, and then save them to a file.<br/>
 See file [`7-add_item.py`](./7-add_item.py).
 #### 8. Class to JSON
-
+Returns the dictionary description with simple data structure for JSON serialization of an object.<br/>
+See file [`8-class_to_json.py`](./8-class_to_json.py).
 #### 9. Student to JSON
-
+Retrieves a dictionary representation of a Student instance.<br/>
+See file [`9-student.py`](./9-student.py).
 #### 10. Student to JSON with filter
-
+Changes the to_json method from the previous task by adding `attrs=None` to its definition.<br/>
+If `attrs` is a list of strings, only retrieve the attributes listed there.<br/>
+See file [`10-student.py`](./10-student.py).
 #### 11. Student to disk and reload
 
 #### 12. Pascal's Triangle
