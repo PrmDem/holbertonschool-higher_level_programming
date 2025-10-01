@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-import json
 
 """Uses the `json.dumps()` method
     to serialize a Python object
     to a JSON-formatted string.
 """
+import json
 
 
 def to_json_string(my_obj):
