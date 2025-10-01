@@ -1,5 +1,10 @@
 #!/usr/bin/python3
 
+"""This module, written in Python, uses I/O
+    to append a string of text to a file.
+"""
+
+
 def append_write(filename="", text=""):
     """Appends a string to the end of a text file (UTF-8)
             and returns the number of characters added.
