@@ -19,8 +19,8 @@ In this project we'll learn how to manipulate files in Python, use `with` correc
 ## Tasks
 ### General information
 __Number of tasks:__ 13<br/>
-__Completed:__ 7<br/>
-__Passed:__ TBA<br/>
+__Completed:__ 8<br/>
+__Passed:__ 7<br/>
 ### Overview
 #### 0. Read file
 Reads a text file and prints it to stdout.<br/>
