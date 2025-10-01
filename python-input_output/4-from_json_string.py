@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-import json
 
 """ Uses the `json.loads()` method to deserialize
     a Python object from a JSON-formatted string.
 """
+import json
 
 
 def from_json_string(my_str):
