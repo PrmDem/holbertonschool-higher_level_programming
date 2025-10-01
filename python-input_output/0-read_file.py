@@ -11,7 +11,7 @@ def read_file(filename=""):
     Args:
         filename: name of the file to open
 
-    Returns nothing."""
+    Returns number of bytes read."""
 
     with open(filename, encoding="utf-8") as f:
         read_data = f.read()
