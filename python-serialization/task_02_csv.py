@@ -14,9 +14,18 @@ def convert_csv_to_json(csv_file):
 
     Args:
         csv_file (str): name of the file to serialise
+
+    Return:
+        True if written to file successfully
+        False if not
     """
-    with open(csv_file, 'r', newline='', encoding='utf-8') as csvfile:
-        data = list(csv.DictReader(csvfile))
+    try:
+        with open(csv_file, 'r', newline='', encoding='utf-8') as csvfile:
+            data = list(csv.DictReader(csvfile))
+    except OSError:
+        return False
 
     with open('data.json', mode='w', encoding='utf-8') as jsonfile:
-        json.dump(data, jsonfile, indent=4)
+        json.dump(data, jsonfile, indent=4, separators=(',', ': '))
+    if json.dump:
+        return True
