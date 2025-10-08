@@ -9,7 +9,7 @@ users = {}
 
 @app.route("/")
 def home():
-    return ("<p>Welcome to the Flask API!</p>")
+    return "<p>Welcome to the Flask API!</p>"
 
 
 @app.route("/data")
@@ -20,7 +20,7 @@ def data_page():
 
 @app.route("/status")
 def get_status():
-    return ("<p>OK</p>")
+    return "<p>OK</p>"
 
 
 @app.route("/user/<username>")
@@ -29,13 +29,13 @@ def user_page(username):
         if key == username:
             return jsonify(val)
     if username not in users:
-        return jsonify({"error": "User not found"})
+        return jsonify({"error": "User not found"}), 404
 
 
 @app.route("/add_user", methods=["POST"])
 def add_new_user():
     data = request.get_json()
-    if 'username' not in data:
+    if not data['username']:
         return jsonify({"error": "Username is required"}), 400
     else:
         username = data['username']
