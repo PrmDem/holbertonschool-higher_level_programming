@@ -9,7 +9,7 @@ Learning API consumption, development, security & documentation.<br/>
 ## Tasks
 ### General information
 __Number of tasks:__ 6<br/>
-__Completed:__ 3<br/>
+__Completed:__ 4<br/>
 __Passed:__ TBA<br/>
 ### Overview
 #### 0. Basics of HTTP/HTTPS
@@ -20,5 +20,7 @@ Constructing and executing basic API requests with Curl — including setting he
 Using the `requests` library to send HTTP requests and process responses, parsing and manipulating JSON data using Python, and converting structured data into other formats like CSV.<br/>
 See file [`task_02_requests.py`](./task_02_requests.py).
 #### 3. Develop a simple API using Python with the `http.server` module
+With the `http.server`module, set up a basic web server and implement several endpoints: `index`, `data`, `status`, `info`, and an `Endpoint not found` message on any other page.<br/>
+See file [`task_03_http_server.py`](./task_03_http_server.py).
 #### 4. Develop a Simple API using Python with Flask
 #### 5. API Security and Authentication Techniques
