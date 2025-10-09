@@ -37,13 +37,12 @@ def add_new_user():
         return jsonify({"error": "Username is required"}), 400
     else:
         username = data['username']
-        user = {
+        users[username] = {
             "username": data['username'],
             "name": data['name'],
             "age": data['age'],
             "city": data['city']
         }
-        users[username] = user
         return jsonify({"message": "User added", "user": users[username]}), 201
 
 
