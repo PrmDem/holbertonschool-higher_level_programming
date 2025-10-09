@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 
-import json
 from flask import Flask, jsonify, request
 
 app = Flask(__name__)
@@ -34,7 +33,7 @@ def user_page(username):
 @app.route("/add_user", methods=["POST"])
 def add_new_user():
     data = request.get_json()
-    if not data['username']:
+    if not data['username'] or not data:
         return jsonify({"error": "Username is required"}), 400
     else:
         username = data['username']
