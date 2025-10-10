@@ -18,7 +18,7 @@ import csv
 def fetch_and_print_posts():
     """Fetches posts from a placeholder API and prints the HTTP status code."""
     r = requests.get('https://jsonplaceholder.typicode.com/posts')
-    print(f"Status code: {r.status_code}")
+    print(f"Status Code: {r.status_code}")
     if r.status_code == 200:
         data = r.json()
         for item in data:
@@ -32,7 +32,7 @@ def fetch_and_save_posts():
     filename = 'posts.csv'
 
     r = requests.get('https://jsonplaceholder.typicode.com/posts')
-    print(f"Status code: {r.status_code}")
+    print(f"Status Code: {r.status_code}")
     if r.status_code == 200:
         data = r.json()
 
