@@ -23,8 +23,6 @@ def fetch_and_print_posts():
         data = r.json()
         for item in data:
             print(item['title'])
-    else:
-        print(f"Erreur: {r.status_code}")
 
 
 def fetch_and_save_posts():
@@ -50,6 +48,3 @@ def fetch_and_save_posts():
             writer = csv.DictWriter(csvfile, fieldnames=['id', 'title', 'body'])
             writer.writeheader()
             writer.writerows(list_posts)
-
-    else:
-        print(f"Erreur: {r.status_code}")
