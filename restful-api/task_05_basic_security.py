@@ -30,7 +30,7 @@ def user_login():
     password = request.json.get("password", None)
     user=users.get(username)
     if not user or not check_password_hash(user["password"], password):
-        return jsonify('{"error": "Login failed"}'), 401
+        return jsonify('{"error": "Unauthorized"}'), 401
 
     access_token = create_access_token(identity=username, additional_claims={"role": user["role"]})
     return jsonify(access_token=access_token)
@@ -39,7 +39,7 @@ def user_login():
 @jwt_required()
 def access_jwt():
     current_user = get_jwt_identity()
-    return jsonify("JWT Auth: Access Granted"), 200
+    return "JWT Auth: Access Granted"
 
 @jwt.unauthorized_loader
 def handle_unauthorized_error(err):
