@@ -10,12 +10,21 @@ Parameters:
 
 Known issues:
     Because lstrip() does not work,
-    Replacing 'char + " "' means that an ending period,
+    Replacing 'char + " "' means that an ending period
     with no whitespace after it, will not be replaced by new lines.
 """
 
 
 def text_indentation(text):
+    """breaks provided text 
+    by adding new lines at specific signs
+
+    Args:
+        text (str): text to indent
+
+    Raises:
+        TypeError: should the provided 'text' arg not be a string
+    """
     if not isinstance(text, str):
         # ensures text is a string
         raise TypeError("text must be a string")
