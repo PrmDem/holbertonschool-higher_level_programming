@@ -15,8 +15,8 @@ If you'd like to know how we approached it, just keep reading, for the [requirem
 
 ## Tasks
 ### General information
-__Number of tasks:__ 16<br/>
-__Completed:__ TBA<br/>
+__Number of tasks:__ 17<br/>
+__Completed:__ 17<br/>
 __Passed:__ TBA<br/>
 ### Overview
 #### 0. List databases
@@ -35,26 +35,39 @@ See file [`3-list_tables.sql`](./3-list_tables.sql)
 Creates a table called first_table in the current database in the MySQL server.<br/>
 See file [`4-first_table.sql`](./4-first_table.sql)
 #### 5. Full description
-See file [`2-remove_database.sql`](./2-remove_database.sql)
+Without using the `DESCRIBE` or `EXPLAIN` statements, prints full description of the table created in task 4.<br/>
+See file [`5-full_table.sql`](./5-full_table.sql)
 #### 6. List all in table
-See file [`2-remove_database.sql`](./2-remove_database.sql)
+Lists all rows of the table created in task 4.<br/>
+See file [`6-list_values.sql`](./6-list_values.sql)
 #### 7. First add
-See file [`2-remove_database.sql`](./2-remove_database.sql)
+Inserts a new row in the table `first_table`, using values `id = 89` and `name = Best School`.<br/>
+See file [`7-insert_value.sql`](./7-insert_value.sql)
 #### 8. Count 89
-See file [`2-remove_database.sql`](./2-remove_database.sql)
+Displays the number of records with `id = 89` in `first_table`.<br/>
+See file [`8-count_89.sql`](./8-count_89.sql)
 #### 9. Full creation
-See file [`2-remove_database.sql`](./2-remove_database.sql)
+Creates `second_table` in the database and adds four rows with `id`, `name`, and `score` values.<br/>
+See file [`9-full_creation.sql`](./9-full_creation.sql)
 #### 10. List by best
-See file [`2-remove_database.sql`](./2-remove_database.sql)
+Lists all records from `second_table`, score first, then name, in descending score order.<br/>
+See file [`10-top_score.sql`](./10-top_score.sql)
 #### 11. Select the best
-See file [`2-remove_database.sql`](./2-remove_database.sql)
+Lists all records from `second_table` where `score` >= 10, score then name, top score first.<br/>
+See file [`11-best_score.sql`](./11-best_score.sql)
 #### 12. Cheating is bad
-See file [`2-remove_database.sql`](./2-remove_database.sql)
+Updates Bob's score to 10 in `second_table`, _without_ using his id value.<br/>
+See file [`12-no_cheating.sql`](./12-no_cheating.sql)
 #### 13. Score too low
-See file [`2-remove_database.sql`](./2-remove_database.sql)
+Removes all records with a score <= 5 in `second_table`.<br/>
+See file [`13-change_class.sql`](./13-change_class.sql)
 #### 14. Average
-See file [`2-remove_database.sql`](./2-remove_database.sql)
+Computes the score average of all records in `second_table`.<br/>
+See file [`14-average.sql`](./14-average.sql)
 #### 15. Number by score
-See file [`2-remove_database.sql`](./2-remove_database.sql)
+Lists the number of records with the same score in `second_table`.<br/>
+The displays should be the `score` column, then a new column named `number` with the number of records for that score.<br/>
+See file [`15-groups.sql`](./15-groups.sql)
 #### 16. Say my name
-See file [`2-remove_database.sql`](./2-remove_database.sql)
+Displays score and name by descending score, only for rows where `name` column contains a value.<br/>
+See file [`16-no_link.sql`](./16-no_link.sql)
