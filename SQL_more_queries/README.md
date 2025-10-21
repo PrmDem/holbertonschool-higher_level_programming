@@ -11,7 +11,7 @@
 
 ### General information
 __Number of tasks:__ 17<br/>
-__Completed:__ 11<br/>
+__Completed:__ 12<br/>
 __Passed:__ 7<br/>
 
 #### 0. My privileges!
@@ -51,17 +51,18 @@ Lists all cities contained in the database, sorted in ascending order by `cities
 Columns must follow the format `cities.id` -` cities.name` - `states.name`.<br/>
 See file [`9-cities_by_state_join.sql`](./9-cities_by_state_join.sql)
 #### 10. Genre ID by show
-Lists the name of a tv show as many times as it has associates genres, _and_ the id of said genres.<br/>
+Lists the name of a tv show as many times as it has associated genres, _and_ the id of said genres.<br/>
 See file [`10-genre_id_by_show.sql`](./10-genre_id_by_show.sql)
 #### 11. Genre ID for all shows
-See file [`5-unique_id.sql`](./5-unique_id.sql)
+Same as above, except all titles are displayed. If a show has no associated genre, display `NULL`.<br/>
+See file [`11-genre_id_all_shows.sql`](./11-genre_id_all_shows.sql)
 #### 12. No genre
-See file [`5-unique_id.sql`](./5-unique_id.sql)
+See file [`12-no_genre.sql`](./12-no_genre.sql)
 #### 13. Number of shows by genre
-See file [`5-unique_id.sql`](./5-unique_id.sql)
+See file [`13-count_shows_by_genre.sql`](./13-count_shows_by_genre.sql)
 #### 14. My genres
-See file [`5-unique_id.sql`](./5-unique_id.sql)
+See file [`14-my_genres.sql`](./14-my_genres.sql)
 #### 15. Only Comedy
-See file [`5-unique_id.sql`](./5-unique_id.sql)
+See file [`15-comedy_only.sql`](./15-comedy_only.sql)
 #### 16. List shows and genres
-See file [`5-unique_id.sql`](./5-unique_id.sql)
+See file [`16-shows_by_genre.sql`](./16-shows_by_genre.sql)
