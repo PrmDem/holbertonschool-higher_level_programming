@@ -17,7 +17,7 @@ If you'd like to know how we approached it, just keep reading, for the [requirem
 ### General information
 __Number of tasks:__ 17<br/>
 __Completed:__ 17<br/>
-__Passed:__ TBA<br/>
+__Passed:__ 17<br/>
 ### Overview
 #### 0. List databases
 Lists all databases of our MySQL server.<br/>
