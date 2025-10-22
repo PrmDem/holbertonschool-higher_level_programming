@@ -11,8 +11,8 @@
 
 ### General information
 __Number of tasks:__ 17<br/>
-__Completed:__ 12<br/>
-__Passed:__ 7<br/>
+__Completed:__ 17<br/>
+__Passed:__ 16<br/>
 
 #### 0. My privileges!
 Lists all privileges of the MySQL users `user_0d_1` and `user_0d_2`.<br/>
@@ -57,12 +57,17 @@ See file [`10-genre_id_by_show.sql`](./10-genre_id_by_show.sql)
 Same as above, except all titles are displayed. If a show has no associated genre, display `NULL`.<br/>
 See file [`11-genre_id_all_shows.sql`](./11-genre_id_all_shows.sql)
 #### 12. No genre
+Only lists shows with no associated genre.<br/>
 See file [`12-no_genre.sql`](./12-no_genre.sql)
 #### 13. Number of shows by genre
+Lists genres that are linked to at least one show, as well as the count of shows linked to it.<br/>
 See file [`13-count_shows_by_genre.sql`](./13-count_shows_by_genre.sql)
 #### 14. My genres
+Lists all genres associated to the show 'Dexter'.<br/>
 See file [`14-my_genres.sql`](./14-my_genres.sql)
 #### 15. Only Comedy
+Lists all shows in the comedy genre, by ascending title order.<br/>
 See file [`15-comedy_only.sql`](./15-comedy_only.sql)
 #### 16. List shows and genres
+Lists all shows in ascending title order, including genres or NULL if no genre has been associated.<br/>
 See file [`16-shows_by_genre.sql`](./16-shows_by_genre.sql)
