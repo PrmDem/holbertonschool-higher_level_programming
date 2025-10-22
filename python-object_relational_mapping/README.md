@@ -26,7 +26,16 @@ __Passed:__ TBA<br/>
 
 ## Overview
 #### 0. Get all states
-See file [``](./)
+Connects to a `MySQL` server to retrieve a list of states and their IDs.<br/>
+Results must be sorted in ascending order by `states.id` and formatted like so:
+```
+(1, 'California')
+(2, 'Arizona')
+(3, 'Texas')
+(4, 'New York')
+(5, 'Nevada')
+```
+See file [`0-select_states.py`](./0-select_states.py)
 #### 1. Filter states
 See file [``](./)
 #### 2. Filter states by user input
