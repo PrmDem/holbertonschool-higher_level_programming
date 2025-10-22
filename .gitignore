@@ -1,9 +1,14 @@
 # Files not needed by the checker
-*-main.py
+*-main*.py
 main_0*_*.py
+8-my_class*.py
+python-input_output/*.txt
 sidequests/
 env/
 parklife/
+*.json
+hbtn_0d_tvshows.sql
+python-object_relational_mapping/*.sql
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
