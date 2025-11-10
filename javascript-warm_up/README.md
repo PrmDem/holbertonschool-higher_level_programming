@@ -12,7 +12,7 @@ In order to get familiar with JavaScript, the following tasks will be JS scripti
 ## General information
 __Number of tasks:__ 14<br/>
 __Completed:__ 14<br/>
-__Passed:__ 7<br/>
+__Passed:__ 14<br/>
 
 ## Overview
 #### 0. First constant, first print
