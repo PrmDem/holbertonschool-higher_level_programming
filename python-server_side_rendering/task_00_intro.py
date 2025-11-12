@@ -12,22 +12,30 @@ where X = # of the current iteration, starting from 1
 
 
 def generate_invitations(template, attendees):
-    # verifies template and attendees are the right type
-    try:
-        isinstance(template, str)
-        isinstance(attendees, list)
-        (isinstance(inv, dict) for inv in attendees)
-    except Exception as e:
-        print(f"Error: {str(e)}")
-        return
-
-    # verifies template is not empty
+    # verifies template and attendees exist
     if len(template) == 0:
         print("Template is empty, no output files generated.")
+        return
 
     # verifies attendees list is not empty
     if len(attendees) == 0:
         print("No data provided, no output files generated.")
+        return
+
+    # verifies template and attendees are the right type
+    try:
+        if not isinstance(template, str):
+            print("Template must be a string.")
+            return
+        if (
+            not isinstance(attendees, list) or 
+            not all(isinstance(inv, dict) for inv in attendees)
+        ):
+            print("Attendees must be a list of dictionaries.")
+            return
+    except ValueError as e:
+        print(f"Error: {str(e)}")
+        return
 
     for (index, inv) in enumerate(attendees):
         invite = template
