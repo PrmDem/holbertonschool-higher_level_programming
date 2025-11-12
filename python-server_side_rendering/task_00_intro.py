@@ -37,14 +37,13 @@ def generate_invitations(template, attendees):
         print(f"Error: {str(e)}")
         return
 
-    for (index, inv) in enumerate(attendees):
+    for (index, inv) in enumerate(attendees, start=1):
         invite = template
         outputFile = f"output_{index}.txt"
 
         # verifies output file doesn't exist
         if os.path.exists(outputFile):
             print("This file already exists, no output file generated.")
-            return
 
         # gets values and injects them in invite text
         for placeholder in ['name', 'event_title', 'event_date', 'event_location']:
