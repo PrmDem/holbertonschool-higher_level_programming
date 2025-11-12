@@ -19,8 +19,8 @@ def contact():
 def items():
     with open('items.json', 'r', encoding="utf-8") as f:
         data = json.load(f)
-        itemsList = data.get('items', [])
-        return render_template('items.html', items=itemsList)
+    itemsList = data.get('items', [])
+    return render_template('items.html', items=itemsList)
 
 if __name__ == '__main__':
     app.run(debug=True, port=5000)
