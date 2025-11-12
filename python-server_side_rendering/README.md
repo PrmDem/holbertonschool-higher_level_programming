@@ -4,8 +4,8 @@ In this project, we'll learn how to replace Client-side rendering with SSR using
 
 ## General information
 __Number of tasks:__ 5<br/>
-__Completed:__ 1<br/>
-__Passed:__ TBA<br/>
+__Completed:__ 2<br/>
+__Passed:__ 1<br/>
 
 ## Overview
 #### 0. Creating a Simple Templating Program
