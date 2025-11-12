@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-import sys
 import os.path
 
 """Generates invitations according to
@@ -33,7 +32,7 @@ def generate_invitations(template, attendees):
         ):
             print("Attendees must be a list of dictionaries.")
             return
-    except ValueError as e:
+    except Exception as e:
         print(f"Error: {str(e)}")
         return
 
@@ -43,7 +42,7 @@ def generate_invitations(template, attendees):
 
         # verifies output file doesn't exist
         if os.path.exists(outputFile):
-            print("This file already exists, no output file generated.")
+            print(f"{outputFile} already exists, no file generated.")
 
         # gets values and injects them in invite text
         for placeholder in ['name', 'event_title', 'event_date', 'event_location']:
@@ -55,4 +54,4 @@ def generate_invitations(template, attendees):
                 with open(outputFile, 'w', encoding='utf-8') as invitation:
                     invitation.write(invite)
             except Exception as e:
-                print(f"Couldn't write {outputFile}: {e}")
+                print(f"Error: couldn't write {outputFile}: {e}")
